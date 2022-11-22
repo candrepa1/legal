@@ -1,5 +1,5 @@
 package application;
-/* se implementan las imagenes png*/
+/* se implementan las imagenes png - Julián Leonardo Pardo Sanabria*/
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

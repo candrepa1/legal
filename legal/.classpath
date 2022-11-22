@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -18,3 +19,7 @@
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+
+
+
+/* creacion de las librerias para eclipse - Camila Andrea Parada Valderrama*/

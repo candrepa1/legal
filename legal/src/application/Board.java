@@ -5,8 +5,8 @@ import java.util.Random;
 import java.util.regex.Pattern;
 
 public class Board {
-	// populate the matrix
-    // check if the game is completed
+	
+    // La parte base del programa y chequear si esta completo - Víctor Andres Ossa Londoño
 
     public Cell[][] board = new Cell[6][6];
 

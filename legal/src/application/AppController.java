@@ -1,5 +1,5 @@
 package application;
-
+/* en AppController  se  administra paso a paso la posicion de las imagenes  y si las imagenes se emparejan segun lo propuesto - Rubén Darío Jr. Ospina Gil  */
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
