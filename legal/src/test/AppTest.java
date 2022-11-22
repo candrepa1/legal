@@ -1,5 +1,5 @@
 package com.legal;
- 
+ /*test para juego (legal)  con Junit - juan pablo rojas castro*/
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api*;
 
@@ -27,6 +27,8 @@ public void shouldAnswerWithTrue()
 public void assertDemo(){
     int expected = 10;
     int actual = -10;
-    assertEquals("asserDemo fails", expected, actual);
-}}
+    assertEquals("assertDemo fails", expected, actual);
+}
+
+}
 
