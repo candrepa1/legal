@@ -36,8 +36,8 @@ public class Board {
             
             String[] splittedName = randomImageSelected.split(Pattern.quote("-"));
 
-            board[randomRow1][randomCol1] = new Cell(splittedName[0], randomImageSelected,randomRow1, randomCol1);
-            board[randomRow2][randomCol2] = new Cell(splittedName[0],randomImageSelected, randomRow2, randomCol2);
+            board[randomRow1][randomCol1] = new Cell(splittedName[0],randomRow1, randomCol1);
+            board[randomRow2][randomCol2] = new Cell(splittedName[0],randomRow2, randomCol2);
 
         }
 

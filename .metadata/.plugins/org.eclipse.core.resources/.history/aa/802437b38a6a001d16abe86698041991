@@ -56,7 +56,11 @@ public class AppController {
         int rowSelected = Integer.parseInt(rowAndColumn.split(",")[0]);
         int colSelected = Integer.parseInt(rowAndColumn.split(",")[1]);
 
-        String image = board.board[rowSelected][colSelected].filename;
+        String image = board.board[rowSelected][colSelected].value;
+        
+        String[] splittedName = image.split(Pattern.quote("-"));
+        
+        System.out.println(image);
 
         FileInputStream imageFile = new FileInputStream(
                 "/Users/candrepa1/Desktop/Uni/legal2/legal-java/legal/src/"+image+".jpeg");

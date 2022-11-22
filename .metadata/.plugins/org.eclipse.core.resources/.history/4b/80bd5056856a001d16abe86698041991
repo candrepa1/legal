@@ -1,8 +1,6 @@
 package application;
 
-import java.util.Arrays;
 import java.util.Random;
-import java.util.regex.Pattern;
 
 public class Board {
 	// populate the matrix
@@ -13,7 +11,7 @@ public class Board {
     public void populateMatrix(){
 
         board = new Cell[6][6];
-        String[] images = {"apple-1", "car-1", "umbrella-1", "apple-2", "car-2", "umbrella-2"};
+        String[] images = {"apple", "car", "umbrella", "pomme", "voiture", "parapluie"};
         Random randomGenerator = new Random();
         while(!isBoardFull()){
             int randomImageIndex = randomGenerator.nextInt(images.length);
@@ -33,11 +31,9 @@ public class Board {
                 randomRow2 = randomGenerator.nextInt(6);
                 randomCol2 = randomGenerator.nextInt(6);
             }
-            
-            String[] splittedName = randomImageSelected.split(Pattern.quote("-"));
 
-            board[randomRow1][randomCol1] = new Cell(splittedName[0], randomImageSelected,randomRow1, randomCol1);
-            board[randomRow2][randomCol2] = new Cell(splittedName[0],randomImageSelected, randomRow2, randomCol2);
+            board[randomRow1][randomCol1] = new Cell(randomImageSelected,randomRow1, randomCol1);
+            board[randomRow2][randomCol2] = new Cell(randomImageSelected,randomRow2, randomCol2);
 
         }
 
