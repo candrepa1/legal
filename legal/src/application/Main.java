@@ -1,5 +1,5 @@
 package application;
-
+/* se implementan las imagenes png*/
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
