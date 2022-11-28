@@ -1,9 +1,7 @@
 package application;
-/* en AppController  se  administra paso a paso la posicion de las imagenes  y si las imagenes se emparejan segun lo propuesto - Rubén Darío Jr. Ospina Gil  */
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.util.regex.Pattern;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -50,8 +48,6 @@ public class AppController {
     public void cardListener(MouseEvent event) throws FileNotFoundException {
         Node sourceComponent = (Node) event.getSource();
         String rowAndColumn = (String)sourceComponent.getUserData();
-        
-        System.out.print(rowAndColumn);
 
         int rowSelected = Integer.parseInt(rowAndColumn.split(",")[0]);
         int colSelected = Integer.parseInt(rowAndColumn.split(",")[1]);

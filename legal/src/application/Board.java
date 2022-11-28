@@ -1,12 +1,11 @@
 package application;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.regex.Pattern;
 
 public class Board {
-	
-    // La parte base del programa y chequear si esta completo - Víctor Andres Ossa Londoño
+	// populate the matrix
+    // check if the game is completed
 
     public Cell[][] board = new Cell[6][6];
 
